@@ -28,15 +28,15 @@ public class Conditional
         {
             System.out.println("Increasing");
         }
-            else if (x > y && y > z)
-             {
-                System.out.println("Decreasing");
-             }
+        else if (x > y && y > z)
+         {
+            System.out.println("Decreasing");
+         }
 
-            else
-            {
-                System.out.println("Neither");
-            }
+        else
+        {
+            System.out.println("Neither");
         }
     }
+}
 

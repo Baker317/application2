@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
 public class Problem1 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
 
         double a;
@@ -30,7 +31,7 @@ public class Problem1 {
         total = sum(a, b, c, d);
         mult = multiply(a, b, d);
         div = divide(b, d);
-        sub = subtract(b,c);
+        sub = subtract(b, c);
 
         System.out.println(a + " + " + b + " + " + c + " + " + d + " = " + total);
         System.out.println(a + " * " + b + " * " + d + " = " + mult);
@@ -38,18 +39,21 @@ public class Problem1 {
         System.out.println(b + " - " + c + " = " + sub);
     }
 
-    public static double sum(double a, double b, double c, double d) {
+    public static double sum(double a, double b, double c, double d)
+    {
         double total = (a + b + c + d);
         return total;
     }
 
 
-    public static double multiply(double a, double b, double d) {
+    public static double multiply(double a, double b, double d)
+    {
         double mult = (a * b * d);
         return mult;
     }
 
-    public static double divide(double b, double d) {
+    public static double divide(double b, double d)
+    {
         double div = (b / d);
         return div;
     }
