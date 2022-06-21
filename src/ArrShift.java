@@ -1,3 +1,4 @@
+//shifting array
 public class ArrShift
 {
     public static void main(String[] args)
